@@ -1,6 +1,6 @@
 function FizzBuzz() {}
 
-FizzBuzz.prototype.start = function(num) {
+FizzBuzz.prototype.start = num => {
   if (num % 3 === 0 && num % 5 === 0) {
     return "FizzBuzz";
   } else if (num % 3 === 0) {
